@@ -1,0 +1,219 @@
+.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+#verify_piv,.btn{background:#4b85b2 !important;color:#fff;border:1px solid;width:70px !important;cursor:pointer;float:right;border-radius: 5px;padding:3px;font-size: 14px;font-weight: bold}
+#verify_piv{text-decoration: none;text-align: center;}
+.err{color:Red;}
+.ivs-inner-form{width:75%;float:left;}
+.ivs-form1{margin-bottom:50px;float:left;width:75%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding:20px;background:#ededed;}
+.ivs-field {margin: 5px 0px;}
+.ivs-field label{width:29%;float: left;margin-top: 14px;}
+.ivs-field input{width:70%!important;float: right;}
+.ivs-field .btn{width: 75px!important;margin-left: 7px;float: left;}
+.ivs-field select{background: none repeat scroll 0 0 #f9f9f9;border: 1px solid #e0e0e0;float: right;height: 40px;width: 70% !important;padding-left: 5px;}
+.ivs-radio {float: right;width:70%!important;margin:9px 0px; }
+.ivs-radio input{float: none;display: inline;width: auto!important;}
+.ivs-field .ivs-input{width:70%!important;float: right;}
+.ivs-field .ivs-input input{width:100%!important;}
+.ivs-field .ivs-input select{width:100%!important;}
+.ivs-field .ivs-input .err{display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 7px !important;
+}
+table.response-tbl{width:40%!important;margin: 20px auto!important;border: 1px solid #ededed; }
+table.response-tbl td{padding: 7px 10px!important;}
+
+
+@media (max-width: 525px) and (min-width: 320px) {
+    .ivs-form{width: 100%;}
+    .ivs-field label{display: none;}
+    .ivs-field .ivs-input{width:100%!important;float: none;}
+    .ivs-radio {width: 100%!important;}
+    .ivs-btn {text-align: center;}
+    .ivs-field .btn {float: none;text-align: center;}
+    table.response-tbl{width:100%!important;}
+
+}
+@media (max-width: 768px) and (min-width: 526px) {
+        .ivs-form{width: 100%;}
+        table.response-tbl{width:75%!important;}
+}
+@media (max-width: 1200px) and (min-width: 769px) {
+    .ivs-form{width: 75%;}
+}
+
+.alert-static { display: none;  background-color: #FCF8E3;  border: 1px solid #fffff4;  border-radius: 4px 4px 4px 4px; color: #C09853; margin-bottom: 18px;    padding: 8px 35px 8px 14px; text-shadow: 0 1px 0 rgba(255,255,255,0.5); font-family: "open sans";   text-align: center; font-size: 14px;}
+.tbl-list tr th,.tbl-list tr td{padding:15px;width:150px;text-align: left;line-height: :30px;border-bottom:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.tbl-list tr th:last-child,.tbl-list tr td:last-child{border-right:0px solid #dfdfdf;}
+
+/* Backend IVS Form - Start 04/03/2015 */
+
+.ivs-bc .setting{width: 55%;float: left;margin-right: 15px;}
+.ivs-bc .info{width: 29%;float: left;background: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.ivs-bc .info img{max-width: 300px;margin: 20px auto;}
+.ivs-bc .setting .form-table td{padding: 7px!important;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body .ivs-bc .setting table.form-table tr td:nth-child(1){font-weight: bold;width: 38%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){width: 60%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input{width: 100%;height: 40px;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input[type="submit"]{width: 75px;}
+
+
+
+@media (max-width: 1100px) and (min-width: 781px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+@media (max-width: 1350px) and (min-width: 1099px) {
+.ivs-bc .setting{width: 70%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+
+@media (max-width: 780px) and (min-width: 320px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+body .ivs-bc .setting .form-table td{padding-bottom: 2px!important;margin-bottom: 0px!important;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){margin-bottom: 20px!important;}
+body .ivs-bc .setting table.form-table {width: 100%!important;}
+body .ivs-bc .setting table.form-table td{width: 100%!important;}
+body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
+}
+/* Backend IVS Form - End */
+
+#share-something {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+   
+    border-bottom: 1px solid #ddd;
+    overflow: auto;
+}
+
+#share-something form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#share-top {
+    margin: 0px 0px 10px 0px;
+    height: 30px;
+    width: 580px;
+}
+
+#share-something textarea {
+    resize: none;
+    outline: none;
+    float: left;
+    padding: 5px 0px 0px 5px;
+    height: 30px;
+    width: 490px;
+    col: 10;
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-box-shadow: #EEE 0px 3px 6px 0px inset;
+    font-family: calibri;
+    font-size: 16px;
+    color: #aaa;    
+}
+
+.share-button {
+    cursor: pointer;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #608AB0;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.share-button p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: calibri;
+    font-size: 16px;
+    color: #fff;
+}
+
+#share-bottom {
+    height: 30px;
+    width: 580px;
+}
+
+.photo-button {
+    cursor: pointer;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #608AB0;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.photo-button p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: calibri;
+    font-size: 16px;
+    color: #fff;
+    line-height: 8px
+}
+
+#upload-wrap {
+    float: left;
+    height: 30px;
+    width: 200px;
+    display:none;
+}
+
+#share-bottom select {
+    outline: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 4px 4px;
+    font-family: calibri;
+    font-size: 16px;
+    color: #444;
+}
+
+.main-form-plg.photoid .ivs-form1 {
+            
+            float: none !important;
+            margin: 50px auto;
+            padding: 20px;
+            width: 75%;
+        }
+        
+        .main-form-plg.photoid .plg-field{width: 50%;float: left;}
+        .main-form-plg.photoid .ivs-inner-form{border:0px;width: 97%!important;}
+        .main-form-plg.photoid #preview{text-align: center;}
+        .main-form-plg.photoid #preview img{margin: 20px auto;border:1px solid #ddd;}
+        .main-form-plg.photoid .plg-field-button{width: auto;float: left;}
+        .main-form-plg.photoid  #verify_piv,.main-form-plg.photoid  #verify_mcv{width: 125px!important;padding: 7px 25px;margin-left: 5px;}
+        .main-form-plg.photoid .plg-field .err_email{margin-top: 5px;display: block;font-style: italic;font-size: 12px;}
+
+        .main-form-plg.photoid .resend-block{margin-top: 20px;font-size: 15px;line-height: 25px;}
+        .main-form-plg.photoid .resend-block .resend_sms{border-radius: 5px;font-size: 13px; padding: 3px 10px; }
+        .alert-static{line-height: 20px;}
+
+
+        @media (max-width: 525px) and (min-width: 320px) {
+            .main-form-plg.photoid h5{text-align: center;}
+            .main-form-plg.photoid .ivs-form1{width: 100%;padding: 15px 10px;}
+            .main-form-plg.photoid .plg-field{width: 100%;}
+            .main-form-plg.photoid .resend-block{text-align: center;}
+            .main-form-plg.photoid .plg-field-button{text-align: center;width: 100%;margin-top: 5px;}
+            .main-form-plg.photoid  #verify_mcv_code,.main-form-plg.photoid  #verify_mcv{float: none;}
+
+            .main-form-plg.photoid  .ivs-field .ivs-input{margin-left:0px;}
+            .main-form-plg.photoid .ivs-inner-form{margin-left:0px;width: 100%!important;-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */}
+        }
+
+        @media (max-width: 767px) and (min-width: 524px) {
+
+            .main-form-plg.photoid .ivs-form1{width: 100%;padding: 15px 10px;}
+            .main-form-plg.photoid .ivs-inner-form{width: 85%!important;}
+        }
