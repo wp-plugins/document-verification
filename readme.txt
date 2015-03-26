@@ -37,4 +37,4 @@ Unzip the folder and place plugin files in /wp-content/plugins/
 == Short Codes ==
 
 Until API Credentials i.e Client Id and Client Secret Provided you will not get the Short Code.
-Short COde : [IVS_MOBILE_VERIFICATION] 
+Short COde : [IVS_PHOTOID_VERIFICATION] 
