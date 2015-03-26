@@ -107,7 +107,7 @@
 	function piv_photo_id_document_verification(){
 
 		global $wpdb;
-		$url='http://staging-api.identityverification.com/get_verified/get_auth_token/';
+		$url='https://api.identityverification.com/get_verified/get_auth_token/';
 		$configuration=$wpdb->get_results("select * from ".$wpdb->prefix ."piv_configurations");
 		$config_auth['client_id']=$configuration[0]->client_id;
 		$config_auth['client_secret']=$configuration[0]->client_secret;
@@ -134,7 +134,7 @@
 		}
 		$config_details['identity_type']=$_POST['identity_type'];
 
-		 $photoid_verification_url='http://staging-api.identityverification.com/get_verified/photo_id';
+		 $photoid_verification_url='https://api.identityverification.com/get_verified/photo_id';
 		 
 		$response=piv_sendPostData_api($photoid_verification_url,json_encode($config_details));
 		
