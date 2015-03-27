@@ -1,5 +1,5 @@
 === PhotoID DOCUMENT VERIFICATION ===
-Contributors: IdentityVerification
+Contributors: identity-verification-services
 authentication, security
 Requires at least: 3.9
 Tested up to: 4.2-alpha
