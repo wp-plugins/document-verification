@@ -1,11 +1,5 @@
 jQuery(document).ready(function(){
-	var fullpath=window.location.href;
-	var split_path=fullpath.split("/");
-	if(split_path[4]==''){
-		var site_url='http://'+window.location.hostname;
-	}else{
-		var site_url='http://'+window.location.hostname+"/"+split_path[3];
-	}
+	
 	
 	jQuery("#verify_data").on('submit',function(e) {
 		

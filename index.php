@@ -94,6 +94,11 @@
 
 	function piv_scripts(){
 		wp_enqueue_script("jquery");
+		?>
+<script>
+	var site_url='<?php echo site_url()?>'
+</script/>
+	<?php
 		wp_register_script("piv_scripts",plugins_url("piv_scripts/validation.js", __FILE__));
 		wp_enqueue_script("piv_scripts");
 	}
